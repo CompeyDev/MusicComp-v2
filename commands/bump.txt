@@ -87,7 +87,7 @@ module.exports = {
         interaction,
         "✅ | **" +
           player.queue[0].title +
-          "** has been moved to the beginning of the queue."
+          "** has been moved to the front of the queue."
       );
     },
   },
