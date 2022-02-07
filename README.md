@@ -28,6 +28,8 @@ Self-host the bot using heroku, repl.it, etc. ONLY DO THIS IF YOU KNOW WHAT YOUR
 
 `Tip: Edit the botconfig.js file to your needs.`
 
+Make sure to run `npm install` before running index.js
+
 ## Prerequisites
 A lot of this bot relies on several other open source packages including: 
 - [Lavalink](https://github.com/freyacodes/Lavalink)
