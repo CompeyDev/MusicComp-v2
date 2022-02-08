@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 jobs:
-  lint:
+  Install_Packages:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
