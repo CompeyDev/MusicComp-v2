@@ -43,3 +43,5 @@ A lot of this bot relies on several other open source packages including:
 - [DiscordJS](https://discord.js.org)
 
 This repository is licensed under MIT (c) 2022 DevComp
+
+
