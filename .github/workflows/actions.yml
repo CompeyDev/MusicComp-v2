@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v1
-    - uses: egordm/gha-yarn-node-cache@v1
+ #   - uses: egordm/gha-yarn-node-cache@v1
  #   - name: Install JS dependencies
   #    run: yarn install
  #   - name: Test
