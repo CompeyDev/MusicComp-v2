@@ -25,10 +25,16 @@ Invite the bot to your server at [here](https://discord.com/oauth2/authorize?cli
 
 Self-host the bot using heroku, repl.it, etc. ONLY DO THIS IF YOU KNOW WHAT YOUR DOING.
 <br>
+<br>
 
-`Tip: Edit the botconfig.js file to your needs.`
+Install the npm package and dependencies using:
+```
+npm install musiccomp-discord-bot@v0.2.0 --legacy-peer-deps
+```
+<br>
+Tip: Edit the botconfig.js file to your needs.
 
-Make sure to run `npm install` before running index.js
+
 
 ## Prerequisites
 A lot of this bot relies on several other open source packages including: 
