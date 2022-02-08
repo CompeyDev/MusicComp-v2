@@ -29,7 +29,7 @@ Self-host the bot using heroku, repl.it, etc. ONLY DO THIS IF YOU KNOW WHAT YOUR
 
 Install the npm package and dependencies using:
 ```
-npm install musiccomp-discord-bot@v0.2.0 --legacy-peer-deps
+npm install musiccomp-discord-bot@v0.2.1 --legacy-peer-deps
 ```
 <br>
 Tip: Edit the botconfig.js file to your needs.
