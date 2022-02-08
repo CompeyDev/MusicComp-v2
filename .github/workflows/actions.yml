@@ -14,6 +14,6 @@ jobs:
  #   - name: Test
 #      run: yarn test
     - name: Install package
-      run: npm install musiccomp-discord-bot@v0.2.0 --legacy-peer-deps
+      run: npm install musiccomp-discord-bot@v0.2.1 --legacy-peer-deps
     - name: Results
       run: echo "This job's status is ${{ job.status }}."
