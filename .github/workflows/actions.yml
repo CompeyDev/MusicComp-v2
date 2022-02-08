@@ -9,9 +9,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v1
     - uses: egordm/gha-yarn-node-cache@v1
-    - name: Install JS dependencies
-      run: yarn install
-    - name: Test
-      run: yarn test
+ #   - name: Install JS dependencies
+  #    run: yarn install
+ #   - name: Test
+#      run: yarn test
+    - name: Install package
+      run: npm install musiccomp-discord-bot@v0.2.0 --legacy-peer-deps
     - name: Results
       run: echo "This job's status is ${{ job.status }}."
