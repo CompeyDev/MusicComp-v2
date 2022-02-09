@@ -14,6 +14,8 @@
   </p>
  </div>
  
+ ## BOT WILL BE TAKEN OFFLINE ON 09-02-2021 FOR MAINTANENCE
+ 
  
  ## About
  MusicComp is a custom discord music bot with full Spotify, YouTube and Soundcloud API support. It also has a [Web Dashboard](https://musiccomp.devcomp.tk/dashboard).
