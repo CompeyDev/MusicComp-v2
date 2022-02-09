@@ -14,9 +14,6 @@
     <a href="https://devcomp.tk/MusicComp-v2"><img src="https://img.shields.io/badge/users-500%2B-brightgreen.svg" width="" alt="Users" /></a>
   </p>
  </div>
-
- 
- ## BOT WILL BE TAKEN OFFLINE ON 09-02-2021 FOR MAINTANENCE
  
  
  ## About
@@ -33,7 +30,7 @@ Self-host the bot using heroku, repl.it, etc. ONLY DO THIS IF YOU KNOW WHAT YOUR
 
 Install the npm package and dependencies using:
 ```
-npm install musiccomp-discord-bot@v0.2.1 --legacy-peer-deps
+npm install musiccomp-discord-bot@v0.2.5 --legacy-peer-deps
 ```
 <br>
 Tip: Edit the botconfig.js file to your needs.

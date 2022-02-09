@@ -1,9 +1,10 @@
 {
   "name": "musiccomp-discord-bot",
-  "version": "0.2.1",
+  "version": "0.2.5",
   "private": false,
   "repository": "git://github.com/TheAwesomeCoder05/MusicComp-v2.git",
   "dependencies": {
+    "musiccomp-discord-bot": "^0.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^4.0.0"
