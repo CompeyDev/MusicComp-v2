@@ -9,10 +9,12 @@
     <a href="https://circleci.com/gh/TheAwesomeCoder05/MusicComp-v2"><img src="https://circleci.com/gh/TheAwesomeCoder05/MusicComp-v2.svg?style=svg" width="" alt="CicleCI Status" /></a>
     <a href="https://sonarcloud.io/dashboard?id=TheAwesomeCoder05_MusicComp-v2"><img src="https://sonarcloud.io/api/project_badges/measure?project=TheAwesomeCoder05_MusicComp-v2&metric=alert_status" width="" alt="Sonarcloud Status" /></a>
 <a href="https://github.com/TheAwesomeCoder05/MusicComp-v2/actions"><img src="https://shields.io/github/workflow/status/TheAwesomeCoder05/MusicComp-v2/CI?event=push" width="" alt="Github Build Status" /></a>
+    <a href="https://github.com/TheAwesomeCoder05/MusicComp-v2/actions"><img src="https://github.com/TheAwesomeCoder05/MusicComp-v2/actions/workflows/actions.yml/badge.svg" width="" alt="CI status" /></a>
     <a href="https://www.npmjs.com/package/musiccomp-discord-bot"><img src="https://img.shields.io/github/package-json/v/TheAwesomeCoder05/MusicComp-v2" width="" alt="Version" /></a>
     <a href="https://devcomp.tk/MusicComp-v2"><img src="https://img.shields.io/badge/users-500%2B-brightgreen.svg" width="" alt="Users" /></a>
   </p>
  </div>
+
  
  ## BOT WILL BE TAKEN OFFLINE ON 09-02-2021 FOR MAINTANENCE
  
