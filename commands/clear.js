@@ -43,7 +43,7 @@ module.exports = {
         ":x: | **You must be in the same voice channel as me to use this command!**"
       );
     player.queue.clear();
-    await client.sendTime(message.channel, "✅ | **Cleared the queue!**");
+    await client.sendTime(message.channel, "👍 | **Cleared the queue!**");
   },
 
   SlashCommand: {
@@ -83,7 +83,7 @@ module.exports = {
           "❌ | **Nothing is playing right now...**"
         );
       player.queue.clear();
-      await client.sendTime(interaction, "✅ | **Cleared the queue!**");
+      await client.sendTime(interaction, "👍 | **Cleared the queue!**");
     },
   },
 };
