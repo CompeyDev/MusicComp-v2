@@ -39,7 +39,7 @@ module.exports = {
     player.queue.unshift(track);
     client.sendTime(
       message.channel,
-      "✅ | **" + track.title + "** has been moved to the front of the queue."
+      "👍 | **" + track.title + "** has been moved to the front of the queue."
     );
   },
 
