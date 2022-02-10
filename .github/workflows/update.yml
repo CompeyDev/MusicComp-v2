@@ -2,7 +2,7 @@ name: Update README files
 
 on:
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push: {branches: ["production", "main"]}
   schedule:
     - cron: "*/7 * * * *"
 
