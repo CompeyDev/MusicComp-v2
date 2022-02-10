@@ -29,7 +29,7 @@ module.exports = {
         "❌ | **Nothing is playing right now...**"
       );
     await client.sendTime(message.channel, ":notes: | **Disconnected!**");
-    await message.react("✅");
+    await message.react("👍");
     player.destroy();
   },
 
