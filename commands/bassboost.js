@@ -61,7 +61,7 @@ module.exports = {
 
     return client.sendTime(
       message.channel,
-      `✅ | **Bassboost level set to** \`${level}\``
+      `👍 | **Bassboost level set to** \`${level}\``
     );
   },
   SlashCommand: {
