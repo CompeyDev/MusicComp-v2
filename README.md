@@ -43,7 +43,7 @@ Tip: Edit the botconfig.js file to your needs.
 
 
 
-## Prerequisites
+## Built with:
 A lot of this bot relies on several other open source projects including: 
 - [Lavalink](https://github.com/freyacodes/Lavalink)
 - [NodeJS](https://nodejs.org)
