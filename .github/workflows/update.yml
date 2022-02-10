@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push: {branches: ["master", "main"]}
   schedule:
-    - cron: '30 */2 * * *'
+    - cron: "*/7 * * * *"
 
 
 jobs:
@@ -14,9 +14,11 @@ jobs:
     - name: Check out the repo
       uses: actions/checkout@v2
     - name: Get the latest READMEs
-      run: wget "https://raw.githubusercontent.com/TheAwesomeCoder05/TheAwesomeCoder05/main/README.md" 
-    - run: wget "https://cj.rs/riss.awk"
-    - run: awk -f riss.awk README.md > ./docs/README.md
+      run: wget "https://raw.githubusercontent.com/TheAwesomeCoder05/MusicComp-v2/production/README.md" 
+    - name: Get the automation file
+      run: wget "https://cj.rs/riss.awk"
+    - name: Generate new file
+      run: awk -f riss.awk README.md > ./docs/README.md
     - name: Commit and push if there are changes
       run: |-
         git diff
@@ -24,3 +26,4 @@ jobs:
         git config --global user.name "BotComp"
         git diff --quiet || (git add -u && git commit -m "Updating READMEs")
         git push        
+
