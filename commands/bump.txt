@@ -85,7 +85,7 @@ module.exports = {
       player.queue.unshift(track);
       client.sendTime(
         interaction,
-        "✅ | **" +
+        "👍 | **" +
           player.queue[0].title +
           "** has been moved to the beginning of the queue."
       );
