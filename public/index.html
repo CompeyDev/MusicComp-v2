@@ -23,6 +23,75 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+          <!-- Navbar -->
+      <nav
+        class="navbar"
+        style="
+          overflow: hidden;
+          position: fixed; /* Set the navbar to fixed position */
+          top: 0; /* Position the navbar at the top of the page */
+          width: 100%;
+          z-index: 100;
+          background: rgba(255, 255, 255, 0.35);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          backdrop-filter: blur(9px);
+          -webkit-backdrop-filter: blur(9px);
+          border: 1px solid rgba(255, 255, 255, 0.18);
+          height: 10%;
+        "
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="#"
+            style="
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <img
+              src="/logo.gif"
+              alt="Music Bot Logo"
+              width="30"
+              height="30"
+              class="d-inline-block align-text-top"
+            />
+            MusicComp V2
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex nav-links">
+            <div class="d-flex justify-content-center">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                style="color: white"
+                >Home</a
+              >
+              <a class="nav-link" href="#features" style="color: white"
+                >Features</a
+              >
+              <a class="nav-link" href="#commands" style="color: white"
+                >Commands</a
+              >
+            </div>
+            <a href="/dashboard" class="btn" type="button" style="color: white">
+              Dashboard
+            </a>
+          </div>
+          
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
