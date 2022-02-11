@@ -38,8 +38,14 @@ yarn add musiccomp-discord-bot
 ```
 Please do note that yarn package will always be 1 version ahead of the npm package. 
 
+
 <br>
 Tip: Edit the botconfig.js file to your needs.
+
+<br>
+<br>
+
+Detailed documentation coming soon.
 
 
 
