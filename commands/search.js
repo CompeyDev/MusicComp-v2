@@ -109,7 +109,7 @@ module.exports = {
         .catch(() => {
           er = true;
           msg.edit(
-            "**You took too long to respond. Run the command again if you want to play something!**"
+            "**Response timed out: You took too long to answer!**"
           );
         });
       if (er) return;

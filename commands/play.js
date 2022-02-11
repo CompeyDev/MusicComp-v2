@@ -240,7 +240,7 @@ module.exports = {
       if (!CheckNode || !CheckNode.connected) {
         return client.sendTime(
           interaction,
-          "❌ | **Lavalink node not connected**"
+          "❌ | **Unable to connect to server**"
         );
       }
 

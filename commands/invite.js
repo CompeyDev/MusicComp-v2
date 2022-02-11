@@ -24,7 +24,7 @@ module.exports = {
       )
       .setColor("BLUE")
       .setDescription(
-        `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=${
+        `Invite me to your server [here](https://discord.com/oauth2/authorize?client_id=${
           client.botconfig.ClientID
         }&permissions=${
           client.botconfig.Permissions
@@ -50,7 +50,7 @@ module.exports = {
         )
         .setColor("BLUE")
         .setDescription(
-          `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=${
+          `Invite me to you server [here](https://discord.com/oauth2/authorize?client_id=${
             client.botconfig.ClientID
           }&permissions=${
             client.botconfig.Permissions

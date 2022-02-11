@@ -37,7 +37,7 @@ module.exports = {
       ).setDescription(`${Commands.join("\n")}
   
   Discord Music Bot Version: v${require("../package.json").version}
-  [✨ Support Server](${
+  [💁‍♂️ Support Server](${
     client.botconfig.SupportServer
   }) | [GitHub](https://github.com/TheAwesomeCoder05/MusicComp-v2) | [Dashboard](${client.botconfig.Website}) | By [DevComp](https://github.com/DevComp)`);
     if (!args[0]) message.channel.send(Embed);
@@ -121,7 +121,7 @@ module.exports = {
         ).setDescription(`${Commands.join("\n")}
   
   Discord Music Bot Version: v${require("../package.json").version}
-  [✨ Support Server](${
+  [💁‍♂️ Support Server](${
     client.botconfig.SupportServer
   }) | [GitHub](https://github.com/TheAwesomeCoder05/MusicComp-v2) | [Dashboard](${client.botconfig.Website}) | By [DevComp](https://github.com/TheAwesomeCoder05)`);
       if (!args) return interaction.send(Embed);

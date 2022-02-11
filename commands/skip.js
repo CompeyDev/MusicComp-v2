@@ -38,7 +38,7 @@ module.exports = {
         ":x: | **You must be in the same voice channel as me to use this command!**"
       );
     player.stop();
-    await message.react("✅");
+    await message.react("👍");
   },
   SlashCommand: {
     /**

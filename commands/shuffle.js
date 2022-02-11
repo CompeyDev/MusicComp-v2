@@ -42,7 +42,7 @@ module.exports = {
         "❌ | **Not enough songs in the queue to shuffle!**"
       );
     player.queue.shuffle();
-    await client.sendTime(message.channel, "✅ | Shuffled the queue!");
+    await client.sendTime(message.channel, "👍 | Shuffled the queue!");
   },
   SlashCommand: {
     /**
@@ -82,7 +82,7 @@ module.exports = {
           "❌ | **Not enough songs in the queue to shuffle!**"
         );
       player.queue.shuffle();
-      client.sendTime(interaction, "✅ | Shuffled the queue!");
+      client.sendTime(interaction, "👍 | Shuffled the queue!");
     },
   },
 };

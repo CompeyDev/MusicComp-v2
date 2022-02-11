@@ -49,7 +49,7 @@ module.exports = {
         `**Usage - **\`${GuildDB.prefix}seek <number s/m/h>\` \n**Example - **\`${GuildDB.prefix}seek 2m 10s\``
       );
     player.seek(SeekTo * 1000);
-    message.react("✅");
+    message.react("👍");
   },
   /*
     SlashCommand: {
@@ -79,7 +79,7 @@ module.exports = {
                     let SeekTo = client.ParseHumanTime(interaction.data.options[0].value);
                     if (!SeekTo) return client.sendTime(interaction, `**Usage - **\`${GuildDB.prefix}seek <number s/m/h>\` \n**Example -** \`${GuildDB.prefix}seek 2m 10s\``);
                     player.seek(SeekTo * 1000);
-                    client.sendTime(interaction, "✅ | **Successfully moved the song to **", `\`${Seekto}\``);
+                    client.sendTime(interaction, "👍 | **Successfully moved the song to **", `\`${Seekto}\``);
                 },
             },
         ],

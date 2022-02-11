@@ -47,7 +47,7 @@ module.exports = {
     player.queue.splice(dest, 0, track);
     client.sendTime(
       message.channel,
-      "✅ | **" +
+      "👍 | **" +
         track.title +
         "** has been moved to position " +
         (dest + 1) +
@@ -112,7 +112,7 @@ module.exports = {
       player.queue.splice(dest, 0, track);
       client.sendTime(
         interaction,
-        "✅ | **" +
+        "👍 | **" +
           track.title +
           "** has been moved to position " +
           (dest + 1) +

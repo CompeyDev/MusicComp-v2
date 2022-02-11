@@ -83,7 +83,7 @@ module.exports = {
         return message.channel.send("**:x: Your DMs are disabled**");
       });
 
-    client.sendTime(message.channel, "✅ | **Check your DMs!**");
+    client.sendTime(message.channel, "👍 | **Check your DMs!**");
   },
   SlashCommand: {
     /**
@@ -157,7 +157,7 @@ module.exports = {
         return client.sendTime(interaction, "**:x: Your DMs are disabled**");
       }
 
-      client.sendTime(interaction, "✅ | **Check your DMs!**");
+      client.sendTime(interaction, "👍 | **Check your DMs!**");
     },
   },
 };

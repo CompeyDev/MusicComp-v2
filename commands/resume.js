@@ -44,7 +44,7 @@ module.exports = {
         "❌ | **Music is already resumed!**"
       );
     player.pause(false);
-    await message.react("✅");
+    await message.react("👍");
   },
 
   SlashCommand: {

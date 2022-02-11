@@ -25,13 +25,13 @@ module.exports = {
       .setDescription(`
 What would you like to edit?
 
-✅ - Server Prefix
-☑️ - DJ Role
+🅰️ - Server Prefix
+🅱️ - DJ Role
 `);
 
     let ConfigMessage = await message.channel.send(Config);
-    await ConfigMessage.react("✅");
-    await ConfigMessage.react("☑️");
+    await ConfigMessage.react("🅰️");
+    await ConfigMessage.react("🅱️");
     let emoji = await ConfigMessage.awaitReactions(
       (reaction, user) =>
         user.id === message.author.id &&

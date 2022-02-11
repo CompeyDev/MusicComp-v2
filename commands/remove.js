@@ -44,7 +44,7 @@ module.exports = {
       return message.channel.send("There is nothing in the queue to remove");
     let rm = new MessageEmbed()
       .setDescription(
-        `✅ **|** Removed track **\`${Number(args[0])}\`** from the queue!`
+        `👍 **|** Removed track **\`${Number(args[0])}\`** from the queue!`
       )
       .setColor("GREEN");
     if (isNaN(args[0]))
@@ -102,7 +102,7 @@ module.exports = {
         return client.sendTime("❌ | **Nothing is playing right now...**");
       let rm = new MessageEmbed()
         .setDescription(
-          `✅ | **Removed track** \`${Number(args[0])}\` from the queue!`
+          `👍 | **Removed track** \`${Number(args[0])}\` from the queue!`
         )
         .setColor("GREEN");
       if (isNaN(args[0]))

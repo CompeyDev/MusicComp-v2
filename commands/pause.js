@@ -48,7 +48,7 @@ module.exports = {
       .setColor(client.botconfig.EmbedColor)
       .setDescription(`Type \`${GuildDB.prefix}resume\` to continue playing!`);
     await message.channel.send(embed);
-    await message.react("✅");
+    await message.react("👍");
   },
 
   SlashCommand: {
