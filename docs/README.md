@@ -11,7 +11,7 @@
 <a href="https://github.com/TheAwesomeCoder05/MusicComp-v2/actions"><img src="https://shields.io/github/workflow/status/TheAwesomeCoder05/MusicComp-v2/CI?event=push" width="" alt="Github Build Status" /></a>
     <a href="https://github.com/TheAwesomeCoder05/MusicComp-v2/actions"><img src="https://github.com/TheAwesomeCoder05/MusicComp-v2/actions/workflows/actions.yml/badge.svg" width="" alt="CI status" /></a>
     <a href="https://www.npmjs.com/package/musiccomp-discord-bot"><img src="https://img.shields.io/github/package-json/v/TheAwesomeCoder05/MusicComp-v2" width="" alt="Version" /></a>
-    <a href="https://devcomp.tk/MusicComp-v2"><img src="https://img.shields.io/badge/users-500%2B-brightgreen.svg" width="" alt="Users" /></a>
+    <a href="https://devcomp.tk/MusicComp-v2"><img src="https://img.shields.io/badge/users-600%2B-brightgreen.svg" width="" alt="Users" /></a>
   </p>
  </div>
  
