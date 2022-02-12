@@ -56,3 +56,4 @@ A lot of this bot relies on several other open source projects including:
 - [DiscordJS](https://discord.js.org)
 
 This repository is licensed under MIT (c) 2022 [DevComp](https://github.com/TheAwesomeCoder05)
+
