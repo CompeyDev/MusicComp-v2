@@ -22,7 +22,7 @@ class Logger {
     console.log(
       colors.green(
         `${d.getDate()}:${d.getMonth()}:${d.getFullYear()} - ${d.getHours()}:${d.getMinutes()}`
-      ) + colors.yellow(" | Info: " + Text)
+      ) + colors.red(" | Info: " + Text)
     );
   }
 }
