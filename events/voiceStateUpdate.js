@@ -80,3 +80,5 @@ module.exports = async (client, oldState, newState) => {
       break;
   }
 };
+
+// template for any bot that needs to speak in a vc

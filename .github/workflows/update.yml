@@ -1,0 +1,30 @@
+name: Update README files
+
+on:
+  workflow_dispatch:
+  push: {branches: ["production", "main"]}
+  schedule:
+    - cron: "*/7 * * * *"
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out the repo
+      uses: actions/checkout@v2
+    - name: Get the latest READMEs
+      run: wget "https://raw.githubusercontent.com/TheAwesomeCoder05/MusicComp-v2/production/README.md" 
+    - name: Get the automation file
+      run: wget "https://cj.rs/riss.awk"
+    - name: Generate new file
+      run: awk -f riss.awk README.md > ./docs/README.md
+    - name: Commit and push if there are changes
+      run: |-
+        git diff
+        git config --global user.email "bot@example.com"
+        git config --global user.name "BotComp"
+        git diff --quiet || (git add -u && git commit -m "Updating READMEs")
+        git push        
+
+

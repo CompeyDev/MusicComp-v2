@@ -1,0 +1,21 @@
+name: CI
+
+on: [push]
+
+jobs:
+  Install_Packages:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v1
+ #   - uses: egordm/gha-yarn-node-cache@v1
+ #   - name: Install JS dependencies
+  #    run: yarn install
+ #   - name: Test
+#      run: yarn test
+    - name: Install package using npm
+      run: npm install musiccomp-discord-bot --legacy-peer-deps
+    - name: Install package using yarn
+      run: yarn add musiccomp-discord-bot
+    - name: Results
+      run: echo "This job's status is ${{ job.status }}."
