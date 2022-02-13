@@ -40,6 +40,3 @@ module.exports = {
     ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
   },
 };
-
-
-
