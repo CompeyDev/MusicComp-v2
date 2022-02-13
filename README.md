@@ -56,3 +56,5 @@ A lot of this bot relies on several other open source projects including:
 
 This repository is licensed under MIT (c) 2022 [DevComp](https://github.com/TheAwesomeCoder05)
 
+Psst... You can help this project out by dropping it a star⭐
+
