@@ -5,8 +5,8 @@ module.exports = async (
   emojiList = ["◀️", "⏹️", "▶️"],
   timeout = 120000
 ) => {
-  if (!msg && !msg.channel) throw new Error("The bot does not have access to the channel. Make sure it has the required permissions in the guild.");
-  if (!pages) throw new Error("Pages are not specified.");
+  if (!msg && !msg.channel) throw new Error("Channel is inaccessible.");
+  if (!pages) throw new Error("Pages are not given.");
 
   let page = 0;
   const curPage = await msg.channel.send(
@@ -40,9 +40,6 @@ module.exports = async (
       )
     );
   });
-  
-  /** rmv reactions once interaction is complete and return the function */
-  
   reactionCollector.on("end", () => {
     if (!curPage.deleted) {
       curPage.reactions.removeAll();

@@ -15,7 +15,7 @@ const DEFAULT_OPTS = {
   daysPerWeek: 7,
   weeksPerMonth: 4,
   monthsPerYear: 12,
-  daysPerYear: 365,
+  daysPerYear: 365.25,
 };
 
 /**
