@@ -15,7 +15,6 @@
   </p>
  </div>
  
- **This documentation is also available at https://devcomp.tk/MusicComp-v2/docs**
  
  ## Table of Contents
  * [⚙️ Info and about](#about)
