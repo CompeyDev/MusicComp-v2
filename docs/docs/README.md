@@ -16,7 +16,7 @@
  </div>
  
  
- ## Table of Contents
+ <h2> Table of Contents </h2>
  
  * [⚙️ Info and about](#about)
     * ✔️ All features
@@ -27,7 +27,7 @@
 
  
  
- ## About
+ <h2> About </h2>
  
  MusicComp is a custom discord music bot with full Spotify, YouTube and Soundcloud API support. It also has a [Web Dashboard](https://musiccomp.devcomp.tk/dashboard).
  
