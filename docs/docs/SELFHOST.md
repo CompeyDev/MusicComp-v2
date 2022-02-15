@@ -9,12 +9,13 @@ git checkout release
 
 2. CD to the directory and install the package and dependencies using:
 
-  ### i. NPM:
+  <h3> i. NPM: </h3>
+  
 ```
 npm install musiccomp-discord-bot --legacy-peer-deps
 ```
 
-  ### ii. Yarn:
+  <h3> ii. Yarn: </h3>
 
 ```
 yarn add musiccomp-discord-bot
