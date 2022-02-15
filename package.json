@@ -4,7 +4,7 @@
   "private": false,
   "repository": "git://github.com/TheAwesomeCoder05/MusicComp-v2.git",
   "dependencies": {
-    "musiccomp-discord-bot": "^0.2.5",
+    "musiccomp-discord-bot": "^0.2.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^4.0.0"
