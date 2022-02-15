@@ -22,7 +22,7 @@
     * ✔️ All features
   * [⚙️ Installation](#installation)
     * ✔️ No lag or downtimes
-  * [Self hosting](https://github.com/TheAwesomeCoder05/MusicComp-v2/blob/production/docs/SELFHOST.md) 
+  * [Self hosting](https://www.devcomp.tk/MusicComp-v2/docs/SELFHOST) 
   * [Credits and usage](#built-with)
 
  
