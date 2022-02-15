@@ -1,5 +1,5 @@
 ## Self Hosting Instructions
-1. Clone and checkout the release branch:
+1. Clone and checkout the release branch (or download the the latest release at [releases](https://github.com/TheAwesomeCoder05/MusicComp-v2/releases)):
 
 
 ```
