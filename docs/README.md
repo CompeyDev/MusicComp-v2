@@ -15,6 +15,15 @@
   </p>
  </div>
  
+ ## Table of Contents
+ * [⚙️ Info and about](#about)
+    * ✔️ All features
+  * [⚙️ Installation](#installation)
+    * ✔️ No lag or downtimes
+  * [Self hosting](https://github.com/TheAwesomeCoder05/MusicComp-v2/blob/production/docs/SELFHOST.md) 
+  * [Credits and usage](#built-with)
+
+ 
  
  ## About
  MusicComp is a custom discord music bot with full Spotify, YouTube and Soundcloud API support. It also has a [Web Dashboard](https://musiccomp.devcomp.tk/dashboard).
