@@ -28,6 +28,7 @@ module.exports = (io) => {
         if (!Client.Ready) return;
         let Guild = Client.guilds.cache.get(ServerID);
         if (!Guild) return socket.emit("error", "Unable to find that server");
+        if (!MANAGE_SERVER) return socket.emit("error", "You do not have permissions to view that server");
         let GuildDB = await Client.GetGuild(Guild.id);
         let player = Client.Manager.get(Guild.id);
         if (!player) {
