@@ -8,15 +8,13 @@ git checkout release
 ``` 
 **OR**
 <br>
-Use one of the following CDNs with `wget`.
+Use one of the following CDNs.
 
 [bundle.run](https://bundle.run/musiccomp-discord-bot@0.2.9) <br>
 [jsDelivr](https://cdn.jsdelivr.net/npm/musiccomp-discord-bot@0.2.9/)<br>
 [unpkg](https://unpkg.com/musiccomp-discord-bot@0.2.9/)<br>
 <br>
-```
-wget <URL>
-```
+
 2. CD to the directory and install the package and dependencies using:
 
   <h3> i. NPM: </h3>
