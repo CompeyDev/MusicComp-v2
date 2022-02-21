@@ -13,6 +13,14 @@ The most updated version using CDNs at [here](https://www.devcomp.tk/MusicComp-v
 
 2. CD to the directory and install the package and dependencies using:
 
+```
+bash -f setup.sh
+```
+
+**OR**
+
+Manually install the packages using:
+
   <h3> i. NPM: </h3>
   
 ```
