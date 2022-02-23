@@ -7,9 +7,9 @@ try {
   config = require("../../botconfig");
 }
 
-const Auth = (req, res, next, send) => {
+const Auth = (req, res, next) => {
   if (!req.user) return res.redirect(config.CallbackURL);
-  else next(2);
+  else next();
 };
 
 module.exports = Auth;

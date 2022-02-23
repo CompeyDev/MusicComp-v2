@@ -1,8 +1,8 @@
 {
-  "name": "musiccomp-discord-bot",
-  "description": "music go brr",
-  "repository": "https://github.com/TheAwesomeCoder05/MusicComp-v2",
-  "logo": "https://images-ext-1.discordapp.net/external/nqQs7Qe_SqbDwM9_3NFaXSHh2Bs2elPhpepSqyt8Eig/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/928617705983082527/246a0c34f0d7f888ae46f7250832b245.png?width=627&height=627",
+  "name": "Discord-MusicBot",
+  "description": "Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
+  "repository": "https://github.com/SudhanPlayz/Discord-MusicBot",
+  "logo": "https://cdn.discordapp.com/avatars/750613142488481843/e6326038dbe2243ca551ba5b6ecd8bf2.png?size=1024",
   "keywords": [
     "node",
     "discord",

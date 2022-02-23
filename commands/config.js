@@ -35,7 +35,7 @@ What would you like to edit?
     let emoji = await ConfigMessage.awaitReactions(
       (reaction, user) =>
         user.id === message.author.id &&
-        ["1️⃣", "2️⃣"].includes(reaction.emoji.name),
+        ["🅰️", "🅱️"].includes(reaction.emoji.name),
       { max: 1, errors: ["time"], time: 30000 }
     ).catch(() => {
       ConfigMessage.reactions.removeAll();
@@ -55,7 +55,7 @@ What would you like to edit?
     /**@type {MessageReaction} */
     let em = emoji;
     ConfigMessage.reactions.removeAll();
-    if (em._emoji.name === "1️⃣") {
+    if (em._emoji.name === "🅰️") {
       await client.sendTime(
         message.channel,
         "What do you want to change the prefix to?"

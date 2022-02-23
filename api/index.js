@@ -38,7 +38,7 @@ passport.use(
       scope: "identify guilds",
     },
     function (accessToken, refreshToken, profile, done) {
-      //User login success!!!1
+      //User logged in yay!
       process.nextTick(function () {
         return done(null, profile);
       });
