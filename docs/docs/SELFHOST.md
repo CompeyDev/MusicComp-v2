@@ -4,6 +4,7 @@
 
 ```
 git clone https://github.com/TheAwesomeCoder05/MusicComp-v2.git
+cd MusicComp-v2
 git checkout release
 ``` 
 **OR**
