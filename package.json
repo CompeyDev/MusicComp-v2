@@ -1,6 +1,6 @@
 {
   "name": "musiccomp-discord-bot",
-  "version": "0.2.10",
+  "version": "0.2.12",
   "private": false,
   "repository": "git://github.com/TheAwesomeCoder05/MusicComp-v2.git",
   "main": "README.md",
