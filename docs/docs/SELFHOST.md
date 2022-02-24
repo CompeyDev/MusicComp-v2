@@ -1,4 +1,4 @@
-## Self Hosting Instructions
+# Self Hosting Instructions
 1. Clone and checkout the release branch (or download the the latest release at [releases](https://github.com/TheAwesomeCoder05/MusicComp-v2/releases)):
 
 
@@ -9,7 +9,7 @@ git checkout release
 ``` 
 **OR**
 <br>
-The most updated version using CDNs at [here](https://www.devcomp.tk/MusicComp-v2/downloads).
+The semi-updated version using CDNs at [here](https://www.devcomp.tk/MusicComp-v2/downloads).
 <br>
 
 2. CD to the directory and install the package and dependencies using:
