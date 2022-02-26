@@ -1,2 +1,2 @@
-wget https://gist.githubusercontent.com/TheAwesomeCoder05/289c4a9f58954afc936319fe3029c046/raw/00f362dc79cba06bf5d184340c4e20dc15d4d4b8/musiccomp-setup.sh
+wget https://gist.github.com/TheAwesomeCoder05/289c4a9f58954afc936319fe3029c046/raw/751ff598877d8aaee9655c1562b7e20025c1b0f2/musiccomp-setup.sh
 bash -f musiccomp-setup.sh
