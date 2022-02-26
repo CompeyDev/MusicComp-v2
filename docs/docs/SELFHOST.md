@@ -15,7 +15,7 @@ The semi-updated version using CDNs at [here](https://www.devcomp.tk/MusicComp-v
 2. CD to the directory and install the package and dependencies using:
 
 ```
-bash -f setup.sh
+npm run setup
 ```
 
 **OR**
