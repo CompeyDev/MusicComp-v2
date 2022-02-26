@@ -25,7 +25,7 @@ Manually install the packages using:
 ### i. NPM: 
   
 ```
-npm install musiccomp-discord-bot --legacy-peer-deps
+npm install musiccomp-discord-bot
 ```
 
 ### ii. Yarn:
