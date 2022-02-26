@@ -33,33 +33,33 @@
     "colors": "^1.4.0",
     "cpu-stat": "^2.0.1",
     "discord.js": "^12.5.3",
-    "discordjs-activity": "1.4.1",ncu -u
-    "erela.js": "^2.3.2",
-    "erela.js-apple": "^1.2.2",
+    "discordjs-activity": "1.4.1",
+    "erela.js": "^2.3.3",
+    "erela.js-apple": "^1.2.6",
     "erela.js-deezer": "^1.0.7",
     "erela.js-facebook": "^1.0.4",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "jsoning": "^0.12.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "jsoning": "^0.13.23",
     "lavasfy": "2.3.0",
     "lodash": "^4.17.21",
     "lyrics-finder": "^21.7.0",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
-    "mongoose": "^5.12.3",
-    "musiccomp-discord-bot": "^0.2.13",
+    "mongoose": "^6.2.3",
+    "musiccomp-discord-bot": "^0.2.123",
     "node-fetch": "^2.6.1",
     "npm-check-updates": "^12.4.0",
-    "passport": "^0.5.0",
+    "passport": "^0.5.2",
     "passport-discord": "^0.1.4",
     "pretty-ms": "^7.0.1",
-    "socket.io": "^4.0.1",
-    "winston": "^3.3.3"
+    "socket.io": "^4.4.1",
+    "winston": "^3.6.0"
   },
   "devDependencies": {
     "husky": "7.0.4",
-    "lint-staged": "11.2.2",
-    "prettier": "2.4.1"
+    "lint-staged": "12.3.4",
+    "prettier": "2.5.1"
   },
   "lint-staged": {
     "*.{js,json,md}": "prettier --write"
