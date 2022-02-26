@@ -38,5 +38,5 @@ Please do note that yarn package will always be 1 version ahead of the npm packa
 3. Edit the `botconfig.js` file and enter your Discord Token from [here](https://discord.com/developers/applications), along with a spotify API Token from [here](https://developer.spotify.com/dashboard/) and a YouTube API Token from [here](https://developers.google.com/youtube/registering_an_application).
 4. Lastly run the following, to run the bot:
 ```
-node index
+npm start
 ```
