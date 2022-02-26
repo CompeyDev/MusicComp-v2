@@ -4,7 +4,7 @@
   "description": "MusicComp is a discord music bot with full Spotify, YouTube and Soundcloud API support.",
   "main": "index.js",
   "scripts": {
-    "install-node-v14": "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash && export NVM_DIR=\"$([ -z \"${XDG_CONFIG_HOME-}\" ] && printf %s \"${HOME}/.nvm\" || printf %s \"${XDG_CONFIG_HOME}/nvm\")\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && nvm install 14 && nvm use 14",
+    "setup": "bash -f setup.sh",
     "start": "node index",
     "rm-logs": "rm Logs.log",
     "format": "prettier --write ."
@@ -30,7 +30,7 @@
   },
   "homepage": "https://www.devcomp.tk/MusicComp-v2/",
   "dependencies": {
-    "colors": "^1.4.0",
+    "colors": "1.4.0",
     "cpu-stat": "^2.0.1",
     "discord.js": "^12.5.3",
     "discordjs-activity": "1.4.1",
