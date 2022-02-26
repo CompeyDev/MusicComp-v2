@@ -1,47 +1,67 @@
 {
   "name": "musiccomp-discord-bot",
   "version": "0.2.12",
-  "private": false,
-  "repository": "git://github.com/TheAwesomeCoder05/MusicComp-v2.git",
-  "main": "README.md",
-  "dependencies": {
-    "musiccomp-discord-bot": "^0.2.9",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^4.0.0"
-  },
+  "description": "MusicComp is a discord music bot with full Spotify, YouTube and Soundcloud API support.",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; react-scripts build",
-    "test": "react-scripts test --maxWorkers=2 --ci --coverage --reporters=default --reporters=jest-junit",
-    "eject": "react-scripts eject"
+    "install-node-v14": "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash && export NVM_DIR=\"$([ -z \"${XDG_CONFIG_HOME-}\" ] && printf %s \"${HOME}/.nvm\" || printf %s \"${XDG_CONFIG_HOME}/nvm\")\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && nvm install 14 && nvm use 14",
+    "start": "node index",
+    "rm-logs": "rm Logs.log",
+    "format": "prettier --write ."
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAwesomeCoder05/MusicComp-v2"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "engines": {
+    "node": ">=12.x"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord-music",
+    "music",
+    "discord-music"
+  ],
+  "author": "DevComp_",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheAwesomeCoder05/MusicComp-v2/issues"
+  },
+  "homepage": "https://www.devcomp.tk/MusicComp-v2/",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.5.3",
+    "discordjs-activity": "1.4.1",
+    "erela.js": "^2.3.3",
+    "erela.js-apple": "^1.2.6",
+    "erela.js-deezer": "^1.0.7",
+    "erela.js-facebook": "^1.0.4",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "jsoning": "^0.13.23",
+    "lavasfy": "2.3.0",
+    "lodash": "^4.17.21",
+    "lyrics-finder": "^21.7.0",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^6.2.3",
+    "musiccomp-discord-bot": "^0.2.123",
+    "node-fetch": "^2.6.1",
+    "npm-check-updates": "^12.4.0",
+    "passport": "^0.5.2",
+    "passport-discord": "^0.1.4",
+    "pretty-ms": "^7.0.1",
+    "socket.io": "^4.4.1",
+    "winston": "^3.6.0"
   },
   "devDependencies": {
-    "jest-junit": "^10.0.0",
-    "react-test-renderer": "^17.0.1"
+    "husky": "7.0.4",
+    "lint-staged": "12.3.4",
+    "prettier": "2.5.1"
   },
-  "jest-junit": {
-    "suiteName": "jest tests",
-    "outputDirectory": ".",
-    "outputName": "test-results/junit.xml",
-    "classNameTemplate": "{classname}-{title}",
-    "titleTemplate": "{classname}-{title}",
-    "ancestorSeparator": " › ",
-    "usePathForSuiteName": "true"
+  "lint-staged": {
+    "*.{js,json,md}": "prettier --write"
   }
 }
