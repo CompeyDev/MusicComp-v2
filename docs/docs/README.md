@@ -36,7 +36,7 @@ Invite the bot to your server at [here](https://discord.com/oauth2/authorize?cli
 
 **OR**
 
-Self Host the Bot.
+[Self Host](https://devcomp.tk/MusicComp-v2/docs/SELFHOST) the bot.
 
 
 
