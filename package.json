@@ -33,7 +33,7 @@
     "colors": "^1.4.0",
     "cpu-stat": "^2.0.1",
     "discord.js": "^12.5.3",
-    "discordjs-activity": "1.4.1",
+    "discordjs-activity": "1.4.1",ncu -u
     "erela.js": "^2.3.2",
     "erela.js-apple": "^1.2.2",
     "erela.js-deezer": "^1.0.7",
@@ -49,6 +49,7 @@
     "mongoose": "^5.12.3",
     "musiccomp-discord-bot": "^0.2.13",
     "node-fetch": "^2.6.1",
+    "npm-check-updates": "^12.4.0",
     "passport": "^0.5.0",
     "passport-discord": "^0.1.4",
     "pretty-ms": "^7.0.1",
