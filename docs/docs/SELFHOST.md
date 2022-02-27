@@ -9,13 +9,16 @@ git checkout release
 ``` 
 **OR**
 <br>
-The semi-updated version using CDNs at [here](https://www.devcomp.tk/MusicComp-v2/downloads).
+Use releases with `wget`.
+```
+wget <RELEASES_URL>
+```
 <br>
 
 2. CD to the directory and install the package and dependencies using:
 
 ```
-npm run setup
+yarn setup
 ```
 
 **OR**
