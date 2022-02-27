@@ -54,7 +54,8 @@
     "passport-discord": "^0.1.4",
     "pretty-ms": "^7.0.1",
     "socket.io": "^4.4.1",
-    "winston": "^3.6.0"
+    "winston": "^3.6.0",
+    "yarn": "^1.22.17"
   },
   "devDependencies": {
     "husky": "7.0.4",
