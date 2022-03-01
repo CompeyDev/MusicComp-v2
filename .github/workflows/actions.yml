@@ -19,7 +19,7 @@ jobs:
       run: yarn add musiccomp-discord-bot
     - run: |
         npm install @compeydev/musiccomp-discord-bot
-    - env:
+      env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
     - name: Results
       run: echo "This job's status is ${{ job.status }}."
