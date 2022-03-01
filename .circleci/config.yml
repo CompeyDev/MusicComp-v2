@@ -19,12 +19,3 @@ workflows:
   install:
     jobs:
       - install_using_gh_packages
-    triggers:
-      - schedule:
-          cron: "0 0 * * *"
-          filters:
-            branches:
-              only:
-                - production
-                - release
-
