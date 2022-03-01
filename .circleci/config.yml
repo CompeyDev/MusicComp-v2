@@ -2,7 +2,7 @@ version: 2.1
 orbs:
   npm-config: cobli/npm-config@1.0.0
 jobs:
-  install_packages:
+  install_using_gh_packages:
     docker:
       - image: 'cimg/node:17.2.0'
     steps:
@@ -18,4 +18,4 @@ jobs:
 workflows:
   install:
     jobs:
-      - install_packages
+      - install_using_gh_packages
