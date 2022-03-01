@@ -13,4 +13,4 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v1    
     - run: |
-        npm install @compeydev/musiccomp-discord-bot
+        npm install @compeydev/musiccomp-discord-bot@0.2.13-ghp
