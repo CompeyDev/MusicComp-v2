@@ -1,58 +1,16 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.7.0
-  heroku: circleci/heroku@1.2.6
-
+  npm-config: cobli/npm-config@x.x.x
 jobs:
-  build_and_test:
+  test:
     docker:
-      - image: cimg/node:17.2.0
+      - image: 'circleci/node:9.11.2'
     steps:
       - checkout
-#      - node/install-packages:
-#          pkg-manager: yarn
-#      - run:
-#          command: yarn test
-#          name: Run tests
-#      - run:
-#          command: yarn build
-#          name: Build app
-      - persist_to_workspace:
-          root: ~/project
-          paths:
-            - .
-  deploy: 
-    docker:
-      - image: cimg/node:17.2.0
-    steps:
-      - attach_workspace:
-          at: ~/project
-      - heroku/deploy-via-git:
-          force: false
-
-workflows:
-  on_commit:
-    jobs:
-      - build_and_test
-      - deploy:
-          requires:
-            - build_and_test
-          filters:
-            branches:
-              only: master 
-  nightly:
-    triggers:
-      - schedule:
-          cron: "0 0 * * *"       
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - build_and_test
-      - deploy:
-          requires:
-            - build_and_test 
-          filters:
-            branches:
-              only: master 
+      - npm-config/set-registry:
+          registry-prurl: //npm.pkg.github.com/
+          scope: '@compeydev'
+          auth-token: $GH_TOKEN
+      - run:
+          name: Install pkg
+          command: npm install @compeydev/musiccomp-discord-bot@0.2.13-ghp
