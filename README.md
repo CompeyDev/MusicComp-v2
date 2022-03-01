@@ -6,11 +6,11 @@
   <br />
   <p>
     <a href="https://devcomp.tk/discord"><img src="https://img.shields.io/discord/900981890801094676?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
-    <a href="https://circleci.com/gh/TheAwesomeCoder05/MusicComp-v2"><img src="https://circleci.com/gh/TheAwesomeCoder05/MusicComp-v2.svg?style=svg" width="" alt="CicleCI Status" /></a>
-    <a href="https://sonarcloud.io/dashboard?id=TheAwesomeCoder05_MusicComp-v2"><img src="https://sonarcloud.io/api/project_badges/measure?project=TheAwesomeCoder05_MusicComp-v2&metric=alert_status" width="" alt="Sonarcloud Status" /></a>
-<a href="https://github.com/TheAwesomeCoder05/MusicComp-v2/actions"><img src="https://shields.io/github/workflow/status/TheAwesomeCoder05/MusicComp-v2/CI?event=push" width="" alt="Github Build Status" /></a>
-    <a href="https://github.com/TheAwesomeCoder05/MusicComp-v2/actions"><img src="https://github.com/TheAwesomeCoder05/MusicComp-v2/actions/workflows/actions.yml/badge.svg" width="" alt="CI status" /></a>
-    <a href="https://www.npmjs.com/package/musiccomp-discord-bot"><img src="https://img.shields.io/github/package-json/v/TheAwesomeCoder05/MusicComp-v2/release" width="" alt="Version" /></a>
+    <a href="https://circleci.com/gh/CompeyDev/MusicComp-v2"><img src="https://circleci.com/gh/CompeyDev/MusicComp-v2.svg?style=svg" width="" alt="CicleCI Status" /></a>
+    <a href="https://sonarcloud.io/dashboard?id=TheAwesomeCoder05_MusicComp-v2"><img src="https://sonarcloud.io/api/project_badges/measure?project=TheAwesomeCoder05_MusicComp-v2&metric=alert_status" width="" alt="Sonarcloud" /></a>
+<a href="https://github.com/CompeyDev/MusicComp-v2/actions"><img src="https://shields.io/github/workflow/status/CompeyDev/MusicComp-v2/Install yarn and npm packages?event=push" width="" alt="Github Build Status" /></a>
+    <a href="https://github.com/CompeyDev/MusicComp-v2/actions"><img src="https://github.com/CompeyDev/MusicComp-v2/actions/workflows/actions.yml/badge.svg" width="" alt="CI status" /></a>
+    <a href="https://www.npmjs.com/package/musiccomp-discord-bot"><img src="https://img.shields.io/github/package-json/v/CompeyDev/MusicComp-v2/release" width="" alt="Version" /></a>
     <a href="https://www.jsdelivr.com/package/npm/musiccomp-discord-bot"><img src="https://data.jsdelivr.com/v1/package/npm/musiccomp-discord-bot/badge?style=rounded" width="" alt="jsDelivr hits" /></a>
   </p>
  </div>
