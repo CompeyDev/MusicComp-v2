@@ -1,0 +1,13 @@
+name: Packages
+
+on: [push]
+
+jobs:
+  Install:
+    runs-on: ubuntu-latest
+
+steps:
+  - run: |
+      npm install @compeydev/musiccomp-discord-bot
+  - env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
