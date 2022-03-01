@@ -2,9 +2,9 @@ version: 2.1
 orbs:
   npm-config: cobli/npm-config@1.0.0
 jobs:
-  build_and_test:
+  test:
     docker:
-      - image: 'circleci/node:9.11.2'
+      - image: 'cimg/node:17.2.0'
     steps:
       - checkout
       - npm-config/set-registry:
@@ -14,3 +14,8 @@ jobs:
       - run:
           name: Install pkg
           command: npm install @compeydev/musiccomp-discord-bot@0.2.13-ghp
+
+workflows: # a single workflow with a single job called build
+  build:
+    jobs:
+      - test
