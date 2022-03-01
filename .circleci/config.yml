@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  npm-config: cobli/npm-config@x.x.x
+  npm-config: cobli/npm-config@1.0.0
 jobs:
   test:
     docker:
