@@ -19,6 +19,8 @@ jobs:
       - image: 'cimg/node:17.2.0'
     steps:
       - checkout
+      - setup_remote_docker: 
+          version: 19.03.13      
       - run:
           name: Pull docker image
           command: docker pull compey/musiccomp-v2   
