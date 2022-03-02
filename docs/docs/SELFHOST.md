@@ -39,7 +39,7 @@ Use the docker image:
 
 ### i. Docker:
 ```
-docker pull compey/musiccomp-vs
+docker pull compey/musiccomp-v2
 ```
 
 <br>
