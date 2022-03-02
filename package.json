@@ -1,6 +1,6 @@
 {
-  "name": "musiccomp-discord-bot",
-  "version": "0.2.13",
+  "name": "@compeydev/musiccomp-discord-bot",
+  "version": "0.2.14-ghp",
   "description": "MusicComp is a discord music bot with full Spotify, YouTube and Soundcloud API support.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CompeyDev/MusicComp-v2"
+    "url": "git://https://github.com/CompeyDev/MusicComp-v2"
   },
   "engines": {
     "node": ">=12.x"
@@ -26,7 +26,7 @@
   "author": "DevComp_",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheAwesomeCoder05/MusicComp-v2/issues"
+    "url": "https://github.com/CompeyDev/MusicComp-v2/issues"
   },
   "homepage": "https://www.devcomp.tk/MusicComp-v2/",
   "dependencies": {
