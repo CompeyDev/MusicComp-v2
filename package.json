@@ -1,6 +1,6 @@
 {
   "name": "@compeydev/musiccomp-discord-bot",
-  "version": "0.2.14-ghp",
+  "version": "0.2.14",
   "description": "MusicComp is a discord music bot with full Spotify, YouTube and Soundcloud API support.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://https://github.com/CompeyDev/MusicComp-v2"
+    "url": "git://github.com/CompeyDev/MusicComp-v2"
   },
   "engines": {
     "node": ">=12.x"
