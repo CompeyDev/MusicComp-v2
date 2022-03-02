@@ -9,3 +9,6 @@ RUN npm install
 COPY . .
 
 CMD [ "node", "index.js" ]
+
+
+LABEL org.opencontainers.image.source https://github.com/CompeyDev/MusicComp-v2
