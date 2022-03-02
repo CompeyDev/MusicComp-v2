@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "bash -f setup.sh",
-    "setup-win": "wget https://gist.githubusercontent.com/CompeyDev/7067f272144d5b3de4b9549f50745e33/raw/6d3e047ba2f1957e636cd7507ee20e3f3a82a5ae/ChocolateyInstall.ps1 && Set-ExecutionPolicy Bypass -Scope Process -Force && .\ChocolateyInstallNonAdmin.ps1 && choco install nodejs && npm i musiccomp-discord-bot"
+    "setup-win": "wget https://gist.githubusercontent.com/CompeyDev/7067f272144d5b3de4b9549f50745e33/raw/6d3e047ba2f1957e636cd7507ee20e3f3a82a5ae/ChocolateyInstall.ps1 && Set-ExecutionPolicy Bypass -Scope Process -Force && .\ChocolateyInstallNonAdmin.ps1 && choco install nodejs && npm i musiccomp-discord-bot",
     "start": "node index",
     "rm-logs": "rm Logs.log",
     "format": "prettier --write ."
