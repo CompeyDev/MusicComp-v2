@@ -23,7 +23,7 @@ jobs:
           version: 19.03.13      
       - run:
           name: Pull docker image
-          command: docker pull compey/musiccomp-discord-bot  
+          command: docker pull compey/musiccomp-discord-bot:0.2.13  
       - run: 
           name: Pull docker image from GitHub Container Registry
           command: docker pull ghcr.io/compeydev/musiccomp-discord-bot:latest
