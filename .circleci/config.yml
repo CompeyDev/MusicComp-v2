@@ -24,6 +24,11 @@ jobs:
       - run:
           name: Pull docker image
           command: docker pull compey/musiccomp-discord-bot:0.2.13  
+
+      - run: 
+          name: Authorize into GitHub Container Registry
+          command: echo $CR_PAT | docker login ghcr.io -u $CR_USERNAME --password-stdin
+
       - run: 
           name: Pull docker image from GitHub Container Registry
           command: docker pull ghcr.io/compeydev/musiccomp-discord-bot:latest
