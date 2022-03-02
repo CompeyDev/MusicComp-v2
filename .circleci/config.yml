@@ -13,8 +13,7 @@ jobs:
           auth-token: $GH_TOKEN
       - run:
           name: Install pkg
-          command: npm install @compeydev/musiccomp-discord-bot@0.2.13-ghp
-
+          command: npm install @compeydev/musiccomp-discord-bot
 workflows:
   install:
     jobs:
