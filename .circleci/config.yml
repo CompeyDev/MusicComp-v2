@@ -14,7 +14,18 @@ jobs:
       - run:
           name: Install pkg
           command: npm install @compeydev/musiccomp-discord-bot
+  pull_docker_image:
+    docker:
+      - image: 'cimg/node:17.2.0'
+    steps:
+      - checkout
+      - run:
+          name: Pull docker image
+          command: docker pull compey/musiccomp-v2   
+
+
 workflows:
   install:
     jobs:
       - install_using_gh_packages
+      - pull_docker_image
