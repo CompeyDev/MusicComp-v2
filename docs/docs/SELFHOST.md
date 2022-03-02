@@ -31,7 +31,7 @@ yarn add musiccomp-discord-bot
 ```
 ### iii. GitHub Packages:
 ```
-npm install @compeydev/musiccomp-discord-bot@0.2.13-ghp
+npm install @compeydev/musiccomp-discord-bot
 ```
 <br>
 
