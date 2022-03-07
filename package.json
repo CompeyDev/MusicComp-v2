@@ -4,7 +4,7 @@
   "description": "MusicComp is a discord music bot with full Spotify, YouTube and Soundcloud API support.",
   "main": "index.js",
   "scripts": {
-    "setup": "bash -f ./scripts/log.sh ; bash -f setup.sh > ./logs/install.log 2>&1 ; yarn start ; bash -f ./scripts/success.sh",
+    "setup": "bash -f ./scripts/log.sh ; bash -f setup.sh > ./logs/install.log 2>&1 ; bash -f ./scripts/success.sh ; yarn start",
     "start": "node index",
     "rm-logs": "rm Logs.log",
     "format": "prettier --write ."

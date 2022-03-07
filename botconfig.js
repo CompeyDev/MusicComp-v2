@@ -4,9 +4,9 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || "$", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://dsc.gg/team-comp", //Support Server Link
-  Token: process.env.TOKEN || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  Token: process.env.TOKEN || "OTQ4NTc0OTMwNTYyMzQyOTky.Yh9zPw.16vRwjnJmq4xdFtmG9VLrabpCyY", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "948574930562342992", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "SYQbiY0veT6r6arNkt4e4BWU7wuTi_Z6", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: false, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
