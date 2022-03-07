@@ -8,11 +8,12 @@ cd MusicComp-v2
 git checkout release
 ``` 
 
-2. CD to the directory and install the package and dependencies using (this currently only works for linux, use `npm start` or `yarn start` for windows):
+2. CD to the directory and install the package and dependencies using (this currently only works for linux):
 
 ```
 yarn setup
 ```
+The installation logs are stored at ./logs/install.log
 
 **OR**
 
