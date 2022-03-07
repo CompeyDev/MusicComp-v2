@@ -113,5 +113,6 @@ a.js
 guild.json
 
 musiccomp-setup.sh
+musiccomp-setup.*
 package-lock.json
 .gitpod.yml
