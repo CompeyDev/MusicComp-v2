@@ -13,7 +13,15 @@ git checkout release
 ```
 yarn setup
 ```
-The installation logs are stored at ./logs/install.log
+
+or use:
+
+```
+yarn setup-colorless
+```
+for no colors in installation prompts, this will use the flag `-c`.
+
+The installation logs are stored at `./logs/install.log`.
 
 **OR**
 
