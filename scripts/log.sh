@@ -1,5 +1,19 @@
-cat <<'EOF'
+while getopts "bf:" OPTION
+do
+	case $OPTION in
+		\?)
+			echo "Running install with flag -c..."
+            bash -f ./scripts/log-nc.sh
+			exit
+			;;
+		c)
+			echo "Available flags: -c => no color"
+			exit
+			;;
+	esac
+done
 
+ccat <<'EOF'
 
 
         
