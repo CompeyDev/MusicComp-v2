@@ -9,7 +9,7 @@ labelPRBasedOnFilePath:
     - package.json
     
   core:  
-    - **
+    - "**"
    
 
 
