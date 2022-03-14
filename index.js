@@ -3,6 +3,7 @@ const client = new DiscordMusicBot();
 
 
 client.build();
+client.launch();
 
 module.exports = client; //yes
 
