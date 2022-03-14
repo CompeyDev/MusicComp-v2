@@ -3,7 +3,7 @@ const client = new DiscordMusicBot();
 
 
 client.build();
-client.launch();
+client.launch(); //sharding system
 
 module.exports = client; //yes
 
