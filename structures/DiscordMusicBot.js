@@ -1,6 +1,4 @@
-const { Collection, Client, MessageEmbed, ShardingManager } = require("discord.js");
-const botconfig = require('./botconfig');
-const manager = new ShardingManager('./index.js', { token: botconfig.Token });
+const { Collection, Client, MessageEmbed } = require("discord.js");
 const { LavasfyClient } = require("lavasfy");
 const { Manager } = require("erela.js");
 const { Server } = require("socket.io");
@@ -265,14 +263,6 @@ class DiscordMusicBot extends Client {
         this.log("Web Server has been started")
       );
     }
-  }
-  
-  
-  launch() {
-
-    manager.on('shardCreate', shard => Logger.log(`Launched shard ${shard.id}`));
-
-    manager.spawn();
   }
 
   RegisterSlashCommands() {
