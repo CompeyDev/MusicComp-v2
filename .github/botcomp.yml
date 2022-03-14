@@ -8,8 +8,12 @@ labelPRBasedOnFilePath:
   migration:
     - package.json
     
-  core:  
+  enhancement:  
     - "**"
+    
+  core:  
+    - structures/*    
+    
    
 
 
