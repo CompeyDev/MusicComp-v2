@@ -30,7 +30,6 @@ jobs:
         with:
           webhook-url: ${{ secrets.NIGHTLY_WEBHOOK }}
           raw-data: ./github/nightly.json
-          filename: MusicComp_Nightly_${{ steps.date.outputs.date }}.zip
           
       - name: Send nightly file to Discord channel
         uses: tsickert/discord-webhook@v3.0.0
