@@ -25,10 +25,17 @@ jobs:
           name: MusicComp_Beta_${{ steps.date.outputs.date }}
           path: MusicComp_Beta_${{ steps.date.outputs.date }}.zip
 
+      - name: Send nightly embed to Discord channel
+        uses: tsickert/discord-webhook@v3.0.0
+        if: github.repository == 'CompeyDev/MusicComp-v2' && github.event_name == 'push'
+        with:
+          webhook-url: ${{ secrets.NIGHTLY_WEBHOOK }}
+          raw-data: .github/rolling.json
+          
       - name: Send nightly file to Discord channel
         uses: tsickert/discord-webhook@v3.0.0
         if: github.repository == 'CompeyDev/MusicComp-v2' && github.event_name == 'push'
         with:
           webhook-url: ${{ secrets.NIGHTLY_WEBHOOK }}
           filename: MusicComp_Beta_${{ steps.date.outputs.date }}.zip
-          raw-data: ./github/rolling.json
+          
