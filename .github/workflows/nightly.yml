@@ -15,25 +15,20 @@ jobs:
 
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-
-      - name: Setup 
-        run: yarn
-        
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"        
 
       - name: Archive
-        run: 7z a MusicComp_Nightly_${{ steps.date.outputs.date }}.7z *
+        run: zip -r -q MusicComp_Nightly_${{ steps.date.outputs.date }}.zip *
 
       - uses: actions/upload-artifact@v2
         with:
           name: MusicComp_Nightly_${{ steps.date.outputs.date }}
-          path: MusicComp_Nightly_${{ steps.date.outputs.date }}.7z
+          path: MusicComp_Nightly_${{ steps.date.outputs.date }}.zip
 
       - name: Send file nightly build to Discord channel
         uses: tsickert/discord-webhook@v3.0.0
         if: github.repository == 'CompeyDev/MusicComp-v2' && github.event_name == 'push'
         with:
           webhook-url: ${{ secrets.NIGHTLY_WEBHOOK }}
-          filename: MusicComp_Nightly_${{ steps.date.outputs.date }}.7z
-
-          
+          filename: MusicComp_Nightly_${{ steps.date.outputs.date }}.zip
+        
