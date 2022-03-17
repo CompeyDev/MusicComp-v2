@@ -35,3 +35,4 @@ jobs:
         with:
           webhook-url: ${{ secrets.NIGHTLY_WEBHOOK }}
           filename: MusiccComp_Nightly_${{ steps.date.outputs.date }}.zip
+          
