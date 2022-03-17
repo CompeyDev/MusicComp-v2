@@ -9,11 +9,12 @@
     <a href="https://circleci.com/gh/CompeyDev/MusicComp-v2"><img src="https://circleci.com/gh/CompeyDev/MusicComp-v2.svg?style=svg" width="" alt="CicleCI Status" /></a>
     <a href="https://sonarcloud.io/dashboard?id=TheAwesomeCoder05_MusicComp-v2"><img src="https://sonarcloud.io/api/project_badges/measure?project=TheAwesomeCoder05_MusicComp-v2&metric=alert_status" width="" alt="Sonarcloud" /></a>
 <a href="https://github.com/CompeyDev/MusicComp-v2/actions"><img src="https://shields.io/github/workflow/status/CompeyDev/MusicComp-v2/Install yarn and npm packages?event=push" width="" alt="Github Build Status" /></a>
-    <a href="https://github.com/CompeyDev/MusicComp-v2/actions"><img src="https://github.com/CompeyDev/MusicComp-v2/actions/workflows/actions.yml/badge.svg" width="" alt="CI status" /></a>
-    <a href="https://www.npmjs.com/package/musiccomp-discord-bot"><img src="https://img.shields.io/github/package-json/v/CompeyDev/MusicComp-v2/release" width="" alt="Version" /></a>
-    <a href="https://www.jsdelivr.com/package/npm/musiccomp-discord-bot"><img src="https://data.jsdelivr.com/v1/package/npm/musiccomp-discord-bot/badge?style=rounded" width="" alt="jsDelivr hits" /></a>
+<a href="https://www.npmjs.com/package/musiccomp-discord-bot"><img src="https://img.shields.io/github/package-json/v/CompeyDev/MusicComp-v2/release" width="" alt="Version" /></a>
+<a href="https://github.com/CompeyDev/MusicComp-v2/actions"><img src="https://github.com/CompeyDev/MusicComp-v2/actions/workflows/rolling.yml/badge.svg" width="" alt="rolling beta" /></a>
+<a href="https://github.com/CompeyDev/MusicComp-v2/actions"><img src="https://github.com/CompeyDev/MusicComp-v2/actions/workflows/nightly.yml/badge.svg" width="" alt="nightly" /></a>        
   </p>
  </div>
+ 
  
  **This documentation is also available at https://devcomp.tk/MusicComp-v2/docs**
  
@@ -35,7 +36,7 @@ Invite the bot to your server at [here](https://discord.com/oauth2/authorize?cli
 
 **OR**
 
-Self Host the Bot.
+[Self Host](https://github.com/TheAwesomeCoder05/MusicComp-v2/blob/production/docs/docs/SELFHOST.md) the bot.
 
 
 
@@ -45,6 +46,6 @@ A lot of this bot relies on several other open source projects including:
 - [NodeJS](https://nodejs.org)
 - [DiscordJS](https://discord.js.org)
 
-This repository is licensed under MIT (c) 2022 DevComp ([details](https://theawesomecoder05.mit-license.org/)).
+This repository is licensed under MIT (c) 2022 DevComp ([details](https://compeydev.mit-license.org/)).
 
 Psst... You can help this project out by dropping it a star⭐
