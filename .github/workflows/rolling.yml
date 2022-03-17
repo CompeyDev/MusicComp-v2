@@ -1,4 +1,4 @@
-name: Beta Release
+name: Rolling Beta Release
 
 on:
   push:
