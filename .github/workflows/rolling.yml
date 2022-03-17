@@ -31,4 +31,5 @@ jobs:
         with:
           webhook-url: ${{ secrets.NIGHTLY_WEBHOOK }}
           filename: MusicComp_Beta_${{ steps.date.outputs.date }}.zip
+          raw-data: .github/rolling.json
         
