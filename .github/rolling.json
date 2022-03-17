@@ -1,0 +1,13 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "Rolling Beta Release",
+      "description": "Beta Release. This releases every time the releases branch is updated on the MusicComp Repo.",
+      "color": 1395628,
+      "author": {
+        "name": "MusicComp"
+      }
+    }
+  ]
+}
