@@ -24,7 +24,7 @@ jobs:
           name: MusicComp_Nightly_${{ steps.date.outputs.date }}
           path: MusicComp_Nightly_${{ steps.date.outputs.date }}.zip
 
-      - name: Send nightly embed Discord channel
+      - name: Send nightly embed to Discord channel
         uses: tsickert/discord-webhook@v3.0.0
         if: github.repository == 'CompeyDev/MusicComp-v2' && github.event_name == 'push'
         with:
@@ -32,7 +32,7 @@ jobs:
           raw-data: ./github/nightly.json
           filename: MusicComp_Nightly_${{ steps.date.outputs.date }}.zip
           
-      - name: Send nightly embed Discord channel
+      - name: Send nightly file to Discord channel
         uses: tsickert/discord-webhook@v3.0.0
         if: github.repository == 'CompeyDev/MusicComp-v2' && github.event_name == 'push'
         with:
