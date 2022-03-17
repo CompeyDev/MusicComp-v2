@@ -1,4 +1,4 @@
-name: Night Release
+name: Nightly Release
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
       - name: Setup 
-        run: yarn setup
+        run: yarn
         
 
       - name: Archive
