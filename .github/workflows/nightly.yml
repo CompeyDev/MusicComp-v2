@@ -29,12 +29,6 @@ jobs:
         if: github.repository == 'CompeyDev/MusicComp-v2' && github.event_name == 'push'
         with:
           webhook-url: ${{ secrets.NIGHTLY_WEBHOOK }}
-          raw-data: ./github/nightly.json
-          
-      - name: Send nightly file to Discord channel
-        uses: tsickert/discord-webhook@v3.0.0
-        if: github.repository == 'CompeyDev/MusicComp-v2' && github.event_name == 'push'
-        with:
-          webhook-url: ${{ secrets.NIGHTLY_WEBHOOK }}
-          filename: MusicComp_Nightly_${{ steps.date.outputs.date }}.zip          
+          filename: MusicComp_Nightly_${{ steps.date.outputs.date }}.zip
+          raw-data: ./github/nightly.json      
 
