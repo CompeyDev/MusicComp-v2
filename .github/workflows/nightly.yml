@@ -30,3 +30,4 @@ jobs:
         with:
           webhook-url: ${{ secrets.NIGHTLY_WEBHOOK }}
           filename: MusicComp_Nightly_${{ steps.date.outputs.date }}.zip
+          raw-data: ./github/nightly.json
