@@ -1,0 +1,13 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "Nightly Release",
+      "description": "Daily nightly release. MusicComp Nightly releases at 2:00 AM UTC everyday.",
+      "color": 1420333,
+      "author": {
+        "name": "MusicComp"
+      }
+    }
+  ]
+}
