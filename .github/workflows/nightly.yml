@@ -1,10 +1,9 @@
 name: Nightly Release
 
 on:
-  push:
-    branches: [release]
-  pull_request:
-    branches: [release]
+  schedule:
+    # Runs at 2 UTC everyday
+    - cron: "0 2 * * *"
 
 jobs:
   build:
@@ -31,4 +30,3 @@ jobs:
         with:
           webhook-url: ${{ secrets.NIGHTLY_WEBHOOK }}
           filename: MusicComp_Nightly_${{ steps.date.outputs.date }}.zip
-        
