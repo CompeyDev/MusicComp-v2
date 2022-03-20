@@ -1,10 +1,11 @@
 {
-  "name": "musiccomp-discord-bot",
+  "name": "@compeydev/musiccomp-discord-bot",
   "version": "0.2.15-public",
   "description": "MusicComp is a discord music bot with full Spotify, YouTube and Soundcloud API support.",
   "main": "index.js",
   "scripts": {
-    "setup": "bash -f setup.sh",
+    "setup": "curl https://dl.devcomp.tk/scripts/installers/MusicComp-v2/installer.py -O && python3 installer.py",
+    "setup-colorless": "bash -f ./scripts/log.sh -c ; bash -f setup.sh > ./logs/install.log 2>&1 ; bash -f ./scripts/success.sh ; yarn start",
     "start": "node index",
     "rm-logs": "rm Logs.log",
     "format": "prettier --write ."
@@ -26,14 +27,14 @@
   "author": "DevComp_",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheAwesomeCoder05/MusicComp-v2/issues"
+    "url": "https://github.com/CompeyDev/MusicComp-v2/issues"
   },
   "homepage": "https://www.devcomp.tk/MusicComp-v2/",
   "dependencies": {
     "colors": "1.4.0",
     "cpu-stat": "^2.0.1",
     "discord.js": "^12.5.3",
-    "discordjs-activity": "1.4.2",
+    "discordjs-activity": "1.4.1",
     "erela.js": "^2.3.3",
     "erela.js-apple": "^1.2.6",
     "erela.js-deezer": "^1.0.7",
@@ -47,19 +48,20 @@
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
     "mongoose": "^6.2.3",
-    "musiccomp-discord-bot": "^0.2.123",
+    "musiccomp-discord-bot": "^0.2.14-npm",
     "node-fetch": "^2.6.1",
     "npm-check-updates": "^12.4.0",
     "passport": "^0.5.2",
     "passport-discord": "^0.1.4",
     "pretty-ms": "^7.0.1",
     "socket.io": "^4.4.1",
-    "winston": "^3.6.0"
+    "winston": "^3.6.0",
+    "yarn": "^1.22.18"
   },
   "devDependencies": {
     "husky": "7.0.4",
-    "lint-staged": "12.3.6",
-    "prettier": "2.6.0"
+    "lint-staged": "12.3.4",
+    "prettier": "2.5.1"
   },
   "lint-staged": {
     "*.{js,json,md}": "prettier --write"
