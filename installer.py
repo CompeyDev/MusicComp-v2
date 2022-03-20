@@ -25,6 +25,7 @@ def runCommand (command):
 def setup():
     if sys.platform.startswith("win"):
         os.system("more init.txt")
+        os.system("pip install tqdm")
         from tqdm import tqdm
         for i in tqdm (range (101), 
                     desc="Installing...", 
