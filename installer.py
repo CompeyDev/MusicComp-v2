@@ -47,12 +47,12 @@ def setup():
                     desc="Installing...", 
                     ascii=False, ncols=100):
             time.sleep(0.10)
-        output = runCommand (["rm", "app.json"])
-        output = runCommand (["rm", "renovate.json"])
-        output = runCommand (["rm", "Logs.log"])
-        output = runCommand (["rm", ".circleci/*"])
-        output = runCommand (["rm", ".github"])
-        output = runCommand (["rm", "package-lock.json"])
+        output = runCommand (["rm", "./app.json"])
+        output = runCommand (["rm", "./renovate.json"])
+        output = runCommand (["rm", "./Logs.log"])
+        output = runCommand (["rm", "./.circleci/*"])
+        output = runCommand (["rm", "./.github"])
+        output = runCommand (["rm", "./package-lock.json"])
         output = runCommand (["npm", "i", "-G", "yarn"])
         output = runCommand (["yarn"])
         output = runCommandStats (["yarn", "start"])
