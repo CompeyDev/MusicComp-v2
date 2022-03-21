@@ -1,10 +1,10 @@
 {
   "name": "@compeydev/musiccomp-discord-bot",
-  "version": "0.2.15-public",
+  "version": "0.2.15",
   "description": "MusicComp is a discord music bot with full Spotify, YouTube and Soundcloud API support.",
   "main": "index.js",
   "scripts": {
-    "setup": "curl https://dl.devcomp.tk/scripts/installers/MusicComp-v2/installer.py -O && python3 installer.py",
+    "setup": "python checks.py",
     "start": "node index",
     "rm-logs": "rm Logs.log",
     "format": "prettier --write ."
