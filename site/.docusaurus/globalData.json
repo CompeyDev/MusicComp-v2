@@ -1,0 +1,37 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs/docs",
+          "mainDocId": "Introduction",
+          "docs": [
+            {
+              "id": "Introduction",
+              "path": "/docs/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/host",
+              "path": "/docs/docs/tutorial-basics/host",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/docs/",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

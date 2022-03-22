@@ -1,0 +1,47 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/docs/",
+        "docId": "Introduction"
+      },
+      {
+        "type": "category",
+        "label": "Self Hosting & Development",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Self Hosting Instructions",
+            "href": "/docs/docs/tutorial-basics/host",
+            "docId": "tutorial-basics/host"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "Introduction": {
+      "id": "Introduction",
+      "title": "Introduction",
+      "description": "Table of Contents",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/host": {
+      "id": "tutorial-basics/host",
+      "title": "Self Hosting Instructions",
+      "description": "Bootstrapper:",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}
