@@ -1,0 +1,16 @@
+name: Deploy Docs
+
+on: [push]
+
+jobs:
+  Install_Packages:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Install package using npm
+      run: cd site && npm install
+    - name: Build
+      run: npm run build && mv /build ./docs/docs
+    - name: Results
+      run: echo "This job's status is ${{ job.status }}."
