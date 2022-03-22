@@ -16,7 +16,7 @@ jobs:
     - name: Install deps
       run: cd site && yarn install --frozen-lockfile
     - name: Build
-      run: cd site ; yarn build ; cd build ; mv * /home/runner/work/MusicComp-v2/MusicComp-v2/docs/docs || cd ./docs/docs ; rm -rf *
+      run:  cd ./docs/docs ; rm -rf * ; cd /home/runner/work/MusicComp-v2/MusicComp-v2 ; cd site ; yarn build ; cd build ; mv * /home/runner/work/MusicComp-v2/MusicComp-v2/docs/docs
     - name: Commit and push if there are changes
       run: |-
         git config --global user.email "hi@devcomp.tk"
