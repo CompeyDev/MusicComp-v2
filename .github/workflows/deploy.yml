@@ -8,10 +8,15 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+    - name: Setup node and load cache
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: yarn
     - name: Install deps
-      run: cd site && npm install
+      run: cd site && yarn install --frozen-lockfile
     - name: Build
-      run: cd site ; npm run build ; cd build ; mv * /home/runner/work/MusicComp-v2/MusicComp-v2/docs/docs
+      run: cd site ; yarn build ; cd build ; mv * /home/runner/work/MusicComp-v2/MusicComp-v2/docs/docs || cd ./docs/docs ; rm -rf *
     - name: Commit and push if there are changes
       run: |-
         git config --global user.email "hi@devcomp.tk"
