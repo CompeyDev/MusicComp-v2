@@ -6,7 +6,7 @@
   "source": "@site/docs/Introduction.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/docs/docs/",
+  "permalink": "/MusicComp-v2/docs/docs/",
   "editUrl": "https://github.com/CompeyDev/MusicComp-v2/tree/production/docs/docs/Introduction.md",
   "tags": [],
   "version": "current",
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Self Hosting Instructions",
-    "permalink": "/docs/docs/tutorial-basics/host"
+    "permalink": "/MusicComp-v2/docs/docs/tutorial-basics/host"
   }
 }

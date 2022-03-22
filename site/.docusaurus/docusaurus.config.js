@@ -6,8 +6,8 @@ Modify the docusaurus.config.js file at your site's root instead.
 export default {
   "title": "MusicComp V2 Docs",
   "tagline": "Documentations and more for MusicComp.",
-  "url": "https://devcomp.tk/MusicComp-v2/",
-  "baseUrl": "/docs/",
+  "url": "https://devcomp.tk/",
+  "baseUrl": "/MusicComp-v2/docs/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",

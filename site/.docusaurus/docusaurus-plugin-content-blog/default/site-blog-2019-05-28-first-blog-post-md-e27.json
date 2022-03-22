@@ -1,5 +1,5 @@
 {
-  "permalink": "/docs/blog/first-blog-post",
+  "permalink": "/MusicComp-v2/docs/blog/first-blog-post",
   "editUrl": "https://github.com/CompeyDev/MusicComp-v2/tree/production/docs/blog/2019-05-28-first-blog-post.md",
   "source": "@site/blog/2019-05-28-first-blog-post.md",
   "title": "First Blog Post",
@@ -9,11 +9,11 @@
   "tags": [
     {
       "label": "hola",
-      "permalink": "/docs/blog/tags/hola"
+      "permalink": "/MusicComp-v2/docs/blog/tags/hola"
     },
     {
       "label": "docusaurus",
-      "permalink": "/docs/blog/tags/docusaurus"
+      "permalink": "/MusicComp-v2/docs/blog/tags/docusaurus"
     }
   ],
   "readingTime": 0.12,
@@ -44,6 +44,6 @@
   },
   "prevItem": {
     "title": "Long Blog Post",
-    "permalink": "/docs/blog/long-blog-post"
+    "permalink": "/MusicComp-v2/docs/blog/long-blog-post"
   }
 }

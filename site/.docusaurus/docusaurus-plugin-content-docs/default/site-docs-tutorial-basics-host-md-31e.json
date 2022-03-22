@@ -6,7 +6,7 @@
   "source": "@site/docs/tutorial-basics/host.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/host",
-  "permalink": "/docs/docs/tutorial-basics/host",
+  "permalink": "/MusicComp-v2/docs/docs/tutorial-basics/host",
   "editUrl": "https://github.com/CompeyDev/MusicComp-v2/tree/production/docs/docs/tutorial-basics/host.md",
   "tags": [],
   "version": "current",
@@ -17,6 +17,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/docs/docs/"
+    "permalink": "/MusicComp-v2/docs/docs/"
   }
 }

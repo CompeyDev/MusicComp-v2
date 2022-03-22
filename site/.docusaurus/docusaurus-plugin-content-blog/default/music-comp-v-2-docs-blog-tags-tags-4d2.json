@@ -1,0 +1,30 @@
+{
+  "facebook": {
+    "allTagsPath": "/MusicComp-v2/docs/blog/tags",
+    "slug": "/MusicComp-v2/docs/blog/tags/facebook",
+    "name": "facebook",
+    "count": 1,
+    "permalink": "/MusicComp-v2/docs/blog/tags/facebook"
+  },
+  "hello": {
+    "allTagsPath": "/MusicComp-v2/docs/blog/tags",
+    "slug": "/MusicComp-v2/docs/blog/tags/hello",
+    "name": "hello",
+    "count": 2,
+    "permalink": "/MusicComp-v2/docs/blog/tags/hello"
+  },
+  "docusaurus": {
+    "allTagsPath": "/MusicComp-v2/docs/blog/tags",
+    "slug": "/MusicComp-v2/docs/blog/tags/docusaurus",
+    "name": "docusaurus",
+    "count": 4,
+    "permalink": "/MusicComp-v2/docs/blog/tags/docusaurus"
+  },
+  "hola": {
+    "allTagsPath": "/MusicComp-v2/docs/blog/tags",
+    "slug": "/MusicComp-v2/docs/blog/tags/hola",
+    "name": "hola",
+    "count": 1,
+    "permalink": "/MusicComp-v2/docs/blog/tags/hola"
+  }
+}

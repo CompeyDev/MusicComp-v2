@@ -1,5 +1,5 @@
 {
-  "permalink": "/docs/blog/long-blog-post",
+  "permalink": "/MusicComp-v2/docs/blog/long-blog-post",
   "editUrl": "https://github.com/CompeyDev/MusicComp-v2/tree/production/docs/blog/2019-05-29-long-blog-post.md",
   "source": "@site/blog/2019-05-29-long-blog-post.md",
   "title": "Long Blog Post",
@@ -9,11 +9,11 @@
   "tags": [
     {
       "label": "hello",
-      "permalink": "/docs/blog/tags/hello"
+      "permalink": "/MusicComp-v2/docs/blog/tags/hello"
     },
     {
       "label": "docusaurus",
-      "permalink": "/docs/blog/tags/docusaurus"
+      "permalink": "/MusicComp-v2/docs/blog/tags/docusaurus"
     }
   ],
   "readingTime": 2.05,
@@ -38,10 +38,10 @@
   },
   "prevItem": {
     "title": "MDX Blog Post",
-    "permalink": "/docs/blog/mdx-blog-post"
+    "permalink": "/MusicComp-v2/docs/blog/mdx-blog-post"
   },
   "nextItem": {
     "title": "First Blog Post",
-    "permalink": "/docs/blog/first-blog-post"
+    "permalink": "/MusicComp-v2/docs/blog/first-blog-post"
   }
 }

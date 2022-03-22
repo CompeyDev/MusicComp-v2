@@ -4,86 +4,86 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/docs/blog',
-    component: ComponentCreator('/docs/blog','4cc'),
+    path: '/MusicComp-v2/docs/blog',
+    component: ComponentCreator('/MusicComp-v2/docs/blog','b85'),
     exact: true
   },
   {
-    path: '/docs/blog/archive',
-    component: ComponentCreator('/docs/blog/archive','508'),
+    path: '/MusicComp-v2/docs/blog/archive',
+    component: ComponentCreator('/MusicComp-v2/docs/blog/archive','d01'),
     exact: true
   },
   {
-    path: '/docs/blog/first-blog-post',
-    component: ComponentCreator('/docs/blog/first-blog-post','1e9'),
+    path: '/MusicComp-v2/docs/blog/first-blog-post',
+    component: ComponentCreator('/MusicComp-v2/docs/blog/first-blog-post','eb6'),
     exact: true
   },
   {
-    path: '/docs/blog/long-blog-post',
-    component: ComponentCreator('/docs/blog/long-blog-post','be5'),
+    path: '/MusicComp-v2/docs/blog/long-blog-post',
+    component: ComponentCreator('/MusicComp-v2/docs/blog/long-blog-post','cb6'),
     exact: true
   },
   {
-    path: '/docs/blog/mdx-blog-post',
-    component: ComponentCreator('/docs/blog/mdx-blog-post','964'),
+    path: '/MusicComp-v2/docs/blog/mdx-blog-post',
+    component: ComponentCreator('/MusicComp-v2/docs/blog/mdx-blog-post','211'),
     exact: true
   },
   {
-    path: '/docs/blog/tags',
-    component: ComponentCreator('/docs/blog/tags','079'),
+    path: '/MusicComp-v2/docs/blog/tags',
+    component: ComponentCreator('/MusicComp-v2/docs/blog/tags','9ff'),
     exact: true
   },
   {
-    path: '/docs/blog/tags/docusaurus',
-    component: ComponentCreator('/docs/blog/tags/docusaurus','b41'),
+    path: '/MusicComp-v2/docs/blog/tags/docusaurus',
+    component: ComponentCreator('/MusicComp-v2/docs/blog/tags/docusaurus','791'),
     exact: true
   },
   {
-    path: '/docs/blog/tags/facebook',
-    component: ComponentCreator('/docs/blog/tags/facebook','dad'),
+    path: '/MusicComp-v2/docs/blog/tags/facebook',
+    component: ComponentCreator('/MusicComp-v2/docs/blog/tags/facebook','ff3'),
     exact: true
   },
   {
-    path: '/docs/blog/tags/hello',
-    component: ComponentCreator('/docs/blog/tags/hello','ce3'),
+    path: '/MusicComp-v2/docs/blog/tags/hello',
+    component: ComponentCreator('/MusicComp-v2/docs/blog/tags/hello','4fd'),
     exact: true
   },
   {
-    path: '/docs/blog/tags/hola',
-    component: ComponentCreator('/docs/blog/tags/hola','743'),
+    path: '/MusicComp-v2/docs/blog/tags/hola',
+    component: ComponentCreator('/MusicComp-v2/docs/blog/tags/hola','9fc'),
     exact: true
   },
   {
-    path: '/docs/blog/welcome',
-    component: ComponentCreator('/docs/blog/welcome','3d6'),
+    path: '/MusicComp-v2/docs/blog/welcome',
+    component: ComponentCreator('/MusicComp-v2/docs/blog/welcome','c52'),
     exact: true
   },
   {
-    path: '/docs/markdown-page',
-    component: ComponentCreator('/docs/markdown-page','dbb'),
+    path: '/MusicComp-v2/docs/markdown-page',
+    component: ComponentCreator('/MusicComp-v2/docs/markdown-page','bd0'),
     exact: true
   },
   {
-    path: '/docs/docs',
-    component: ComponentCreator('/docs/docs','8d9'),
+    path: '/MusicComp-v2/docs/docs',
+    component: ComponentCreator('/MusicComp-v2/docs/docs','0e6'),
     routes: [
       {
-        path: '/docs/docs/',
-        component: ComponentCreator('/docs/docs/','d2a'),
+        path: '/MusicComp-v2/docs/docs/',
+        component: ComponentCreator('/MusicComp-v2/docs/docs/','56a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/docs/tutorial-basics/host',
-        component: ComponentCreator('/docs/docs/tutorial-basics/host','9ae'),
+        path: '/MusicComp-v2/docs/docs/tutorial-basics/host',
+        component: ComponentCreator('/MusicComp-v2/docs/docs/tutorial-basics/host','72d'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/docs/',
-    component: ComponentCreator('/docs/','7fd'),
+    path: '/MusicComp-v2/docs/',
+    component: ComponentCreator('/MusicComp-v2/docs/','340'),
     exact: true
   },
   {

@@ -1,5 +1,5 @@
 {
-  "/docs/blog-4cc": {
+  "/MusicComp-v2/docs/blog-b85": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
@@ -16,33 +16,33 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "6e59e873"
+    "metadata": "86b37b8b"
   },
-  "/docs/blog/archive-508": {
+  "/MusicComp-v2/docs/blog/archive-d01": {
     "component": "9e4087bc",
-    "archive": "e14e76e6"
+    "archive": "07a53773"
   },
-  "/docs/blog/first-blog-post-1e9": {
+  "/MusicComp-v2/docs/blog/first-blog-post-eb6": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/docs/blog/long-blog-post-be5": {
+  "/MusicComp-v2/docs/blog/long-blog-post-cb6": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/docs/blog/mdx-blog-post-964": {
+  "/MusicComp-v2/docs/blog/mdx-blog-post-211": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/docs/blog/tags-079": {
+  "/MusicComp-v2/docs/blog/tags-9ff": {
     "component": "01a85c17",
     "sidebar": "814f3328",
-    "tags": "96cd1e66"
+    "tags": "01064b7d"
   },
-  "/docs/blog/tags/docusaurus-b41": {
+  "/MusicComp-v2/docs/blog/tags/docusaurus-791": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -59,10 +59,10 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "7d2122a7",
-    "listMetadata": "8dcef946"
+    "metadata": "3961879a",
+    "listMetadata": "9f7330c9"
   },
-  "/docs/blog/tags/facebook-dad": {
+  "/MusicComp-v2/docs/blog/tags/facebook-ff3": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -70,10 +70,10 @@
         "content": "7661071f"
       }
     ],
-    "metadata": "b50dee57",
-    "listMetadata": "75a0b613"
+    "metadata": "b036975a",
+    "listMetadata": "b34708ab"
   },
-  "/docs/blog/tags/hello-ce3": {
+  "/MusicComp-v2/docs/blog/tags/hello-4fd": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -84,10 +84,10 @@
         "content": "8717b14a"
       }
     ],
-    "metadata": "8af6ac7f",
-    "listMetadata": "ff1aa532"
+    "metadata": "fa0e5c1c",
+    "listMetadata": "ff2f332b"
   },
-  "/docs/blog/tags/hola-743": {
+  "/MusicComp-v2/docs/blog/tags/hola-9fc": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -95,31 +95,31 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "f03811bd",
-    "listMetadata": "3a2f8c29"
+    "metadata": "d89910a3",
+    "listMetadata": "b9ee43d0"
   },
-  "/docs/blog/welcome-3d6": {
+  "/MusicComp-v2/docs/blog/welcome-c52": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/docs/markdown-page-dbb": {
+  "/MusicComp-v2/docs/markdown-page-bd0": {
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/docs/docs-8d9": {
+  "/MusicComp-v2/docs/docs-0e6": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/docs/docs/-d2a": {
+  "/MusicComp-v2/docs/docs/-56a": {
     "component": "17896441",
     "content": "e0a19902"
   },
-  "/docs/docs/tutorial-basics/host-9ae": {
+  "/MusicComp-v2/docs/docs/tutorial-basics/host-72d": {
     "component": "17896441",
     "content": "31ef6450"
   },
-  "/docs/-7fd": {
+  "/MusicComp-v2/docs/-340": {
     "component": "c4f5d8e4",
     "config": "5e9f5e1a"
   }

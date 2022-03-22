@@ -1,30 +1,30 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs/docs",
+      "path": "/MusicComp-v2/docs/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs/docs",
+          "path": "/MusicComp-v2/docs/docs",
           "mainDocId": "Introduction",
           "docs": [
             {
               "id": "Introduction",
-              "path": "/docs/docs/",
+              "path": "/MusicComp-v2/docs/docs/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/host",
-              "path": "/docs/docs/tutorial-basics/host",
+              "path": "/MusicComp-v2/docs/docs/tutorial-basics/host",
               "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/docs/",
+                "path": "/MusicComp-v2/docs/docs/",
                 "label": "Introduction"
               }
             }
