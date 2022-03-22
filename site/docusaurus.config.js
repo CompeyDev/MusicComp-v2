@@ -9,7 +9,7 @@ const config = {
   title: 'MusicComp V2 Docs',
   tagline: 'Documentations and more for MusicComp.',
   url: 'https://devcomp.tk/MusicComp-v2/',
-  baseUrl: '/', // change to /docs/ for deployment
+  baseUrl: '/docs/', // change to /docs/ for deployment
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
