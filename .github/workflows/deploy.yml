@@ -11,6 +11,6 @@ jobs:
     - name: Install deps
       run: cd site && npm install
     - name: Build
-      run: cd site ; npm run build ; mv /build ./docs/docs
+      run: cd site ; npm run build ; mv build ./docs/docs
     - name: Results
       run: echo "This job's status is ${{ job.status }}."
