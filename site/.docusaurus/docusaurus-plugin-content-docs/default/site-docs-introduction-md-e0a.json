@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Introduction",
+  "id": "Introduction",
+  "title": "Introduction",
+  "description": "Table of Contents",
+  "source": "@site/docs/Introduction.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/MusicComp-v2/docs/docs/",
+  "editUrl": "https://github.com/CompeyDev/MusicComp-v2/tree/production/docs/docs/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Self Hosting Instructions",
+    "permalink": "/MusicComp-v2/docs/docs/tutorial-basics/host"
+  }
+}

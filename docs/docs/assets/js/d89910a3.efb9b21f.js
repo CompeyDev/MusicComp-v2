@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[108],{3442:function(s){s.exports=JSON.parse('{"allTagsPath":"/MusicComp-v2/docs/blog/tags","slug":"/MusicComp-v2/docs/blog/tags/hola","name":"hola","count":1,"permalink":"/MusicComp-v2/docs/blog/tags/hola"}')}}]);
