@@ -21,6 +21,6 @@ jobs:
       run: |-
         git config --global user.email "hi@devcomp.tk"
         git config --global user.name "CompeyDev"
-        git add -A
+        git add -A 
         git commit -m "Deploy Documentation"
         git push
