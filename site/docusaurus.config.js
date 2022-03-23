@@ -26,11 +26,6 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/CompeyDev/MusicComp-v2/tree/production/docs',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/CompeyDev/MusicComp-v2/tree/production/docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,7 +50,6 @@ const config = {
             position: 'left',
             label: 'About',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/CompeyDev/MusicComp-v2',
             label: 'GitHub',
