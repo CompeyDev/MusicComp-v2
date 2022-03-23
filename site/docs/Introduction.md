@@ -6,7 +6,7 @@ slug: /
 <div align="center">
   <br />
   <p>
-    <a href="https://musiccomp.devcomp.tk"><img src="/img/logo.jpg" width="248" alt="discord.js" /></a>
+    <a href="https://musiccomp.devcomp.tk"><img src="https://www.devcomp.tk/MusicComp-v2/docs/img/logo.jpg" width="248" alt="discord.js" /></a>
   </p>
   <br />
   <p>
