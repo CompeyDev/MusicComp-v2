@@ -45,6 +45,10 @@ A lot of this bot relies on several other open source projects including:
 - [Lavalink](https://github.com/freyacodes/Lavalink)
 - [NodeJS](https://nodejs.org)
 - [DiscordJS](https://discord.js.org)
+- [Python](https://python.org)
+
+![Languages](https://skillicons.dev/icons?i=nodejs,discord,js,py)
+
 
 This repository is licensed under MIT (c) 2022 DevComp ([details](https://compeydev.mit-license.org/)).
 
