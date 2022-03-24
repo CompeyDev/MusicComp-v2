@@ -19,8 +19,8 @@ jobs:
       run:  cd ./docs/docs ; rm -rf * ; cd /home/runner/work/MusicComp-v2/MusicComp-v2 ; cd site ; yarn build ; cd build ; mv * /home/runner/work/MusicComp-v2/MusicComp-v2/docs/docs
     - name: Commit and push if there are changes
       run: |-
+        git diff
         git config --global user.email "hi@devcomp.tk"
-        git config --global user.name "CompeyDev"
-        git add -A 
-        git commit -m "Deploy Documentation"
-        git push
+        git config --global user.name "DocsBot"
+        git diff --quiet || (git add -u && git commit -m "🚀Update & Deploy Documentation")
+        git push     
