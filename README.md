@@ -40,7 +40,7 @@ Invite the bot to your server at [here](https://discord.com/oauth2/authorize?cli
 
 
 
-## Built with:
+## Built with
 A lot of this bot relies on several other open source projects including: 
 - [Lavalink](https://github.com/freyacodes/Lavalink)
 - [NodeJS](https://nodejs.org)
