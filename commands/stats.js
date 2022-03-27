@@ -60,7 +60,8 @@ module.exports = {
         },
         {
           name: ":busts_in_silhouette: Users",
-          value: `┕\`${client.users.cache.size}\``,
+          //value: `┕\`${client.users.cache.size}\``,
+          value: `┕\`600+\``,
           inline: true,
         },
         {
@@ -139,7 +140,7 @@ module.exports = {
           },
           {
             name: ":busts_in_silhouette: Users",
-            value: `┕\`${client.users.cache.size}\``,
+            value: `┕\`600+\``,
             inline: true,
           },
           {

@@ -1,8 +1,8 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: "USER_ID",  //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || "$", //Default prefix, Server Admins can change the prefix
-  Port: 3000, //Which port website gonna be hosted
+  Port: 8000, //Which port website gonna be hosted
   SupportServer: "https://dsc.gg/team-comp", //Support Server Link
   Token: process.env.TOKEN || "", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "", //Discord Client ID
@@ -12,7 +12,7 @@ module.exports = {
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
   CallbackURL: "/api/callback", //Discord API Callback url. Do not touch it if you don't know what you are doing. All you need to change for website to work is on line 20.
   "24/7": true, //If you want the bot to be stay in the vc 24/7
-  CookieSecret: process.env.SECRET, //A Secret like a password
+  CookieSecret: process.env.SECRET || "amongus", //A Secret like a password
   IconURL:
     "https://cdn.discordapp.com/emojis/902088294911836170.webp?size=44&quality=lossless", 
   EmbedColor: "RANDOM", //Color of most embeds | Dont edit unless you want a specific color instead of a random one each time
@@ -25,10 +25,10 @@ module.exports = {
     type: "PLAYING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
-  //Lavalink
+  //Lavalink server already hosted by me
   Lavalink: {
     id: "Main",
-    host: "lavalink-replit.theawesomecode1.repl.co",
+    host: "lavalink.devcomp.tk",
     port: 443, // The port that lavalink is listening to. This must be a number!
     pass: "ballskindacringe",
     secure: true, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
