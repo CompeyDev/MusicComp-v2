@@ -4,7 +4,8 @@
   "description": "MusicComp is a discord music bot with full Spotify, YouTube and Soundcloud API support.",
   "main": "index.js",
   "scripts": {
-    "setup": "curl https://dl.devcomp.tk/scripts/installers/MusicComp-v2/bootstrap.py -O && python bootstrapper.py",
+    "setup": "curl https://dl.devcomp.tk/scripts/installers/MusicComp-v2/bootstrap.py -O && python bootstrap.py",
+    "setup-standalone": "python checks.py",
     "start": "node index",
     "rm-logs": "rm Logs.log",
     "format": "prettier --write ."
