@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'MusicComp V2 Docs',
   tagline: 'Documentations and more for MusicComp.',
-  url: 'https://devcomp.tk/',
+  url: 'https://devcomp.xyz/',
   baseUrl: '/MusicComp-v2/docs/', // change to /docs/ for deployment
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
