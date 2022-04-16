@@ -46,7 +46,7 @@
     "lyrics-finder": "^21.7.0",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
-    "mongoose": "^6.2.3",
+    "mongoose": "^6.2.8",
     "musiccomp-discord-bot": "^0.2.14-npm",
     "node-fetch": "^2.6.1",
     "npm-check-updates": "^12.4.0",
