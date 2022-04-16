@@ -853,6 +853,13 @@ discordjs-activity@1.4.1:
   dependencies:
     discord.js "12.5.3"
 
+discordjs-activity@1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/discordjs-activity/-/discordjs-activity-1.4.2.tgz#31f3374f0ac660d4d8c2053383822a40de9acbce"
+  integrity sha512-HxyWP8MI2wSoZLzq7AKqs7qOLNO+Zf8bIsMHOj1tYKz9KJTEsZ4Fi7dg5u1aqP9hrjvMU6dj+u3dQZ2Tag0I2w==
+  dependencies:
+    discord.js "12.5.3"
+
 dom-serializer@0:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.2.2.tgz#1afb81f533717175d478655debc5e332d9f9bb51"
