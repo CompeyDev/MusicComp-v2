@@ -50,7 +50,7 @@
     "musiccomp-discord-bot": "^0.2.14-npm",
     "node-fetch": "^2.6.1",
     "npm-check-updates": "^12.4.0",
-    "passport": "^0.5.2",
+    "passport": "^0.6.0",
     "passport-discord": "^0.1.4",
     "pretty-ms": "^7.0.1",
     "socket.io": "^4.4.1",
