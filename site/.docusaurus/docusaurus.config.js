@@ -84,7 +84,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 DevComp. Built with 💖 and JavaScript."
+      "copyright": "Copyright © 2023 DevComp. Built with 💖 and JavaScript."
     },
     "prism": {
       "theme": {
