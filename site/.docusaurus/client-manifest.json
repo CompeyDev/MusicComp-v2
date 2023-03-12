@@ -114,9 +114,9 @@
     "179": {
       "js": [
         {
-          "file": "assets/js/main.99f667f6.js",
-          "hash": "22425e06514019a4",
-          "publicPath": "/MusicComp-v2/docs/assets/js/main.99f667f6.js"
+          "file": "assets/js/main.21e8a54c.js",
+          "hash": "f2135e4c8033b725",
+          "publicPath": "/MusicComp-v2/docs/assets/js/main.21e8a54c.js"
         }
       ]
     },
@@ -142,7 +142,7 @@
       "js": [
         {
           "file": "assets/js/runtime~main.3fbec8b5.js",
-          "hash": "dd11b0a531d94a2a",
+          "hash": "867035c01736ce4c",
           "publicPath": "/MusicComp-v2/docs/assets/js/runtime~main.3fbec8b5.js"
         }
       ]
